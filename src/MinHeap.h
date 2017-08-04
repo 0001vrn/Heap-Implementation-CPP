@@ -11,9 +11,7 @@
 #include "Heap.h"
 
 class MinHeap: public Heap {
-	int *harr;
-	int capacity;
-	int heap_size;
+
 public:
 	MinHeap(int cap);
 	virtual ~MinHeap();

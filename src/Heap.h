@@ -11,6 +11,9 @@
 class Heap {
 
 public:
+	int *harr;
+	int capacity;
+	int heap_size;
 	Heap();
 	virtual ~Heap();
 
@@ -21,6 +24,15 @@ public:
 
 	// to get index of right child of node at index i
 	int right(int i) { return (2*i + 2); }
+
+	int size()
+	{
+		return heap_size;
+	}
+	bool empty()
+	{
+		return heap_size==0;
+	}
 };
 
 #endif /* HEAP_H_ */

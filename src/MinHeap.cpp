@@ -6,7 +6,6 @@
  */
 #include<climits>
 #include<iostream>
-#include "Heap.h"
 using namespace std;
 #include "MinHeap.h"
 
